@@ -1,0 +1,15 @@
+//学号: 202102843
+//姓名:江剑锋
+
+ class Solution {
+public int[] twoSum(int[] nums, int target)
+int[] sum = new int[2];
+for (int i = 0; i < nums.length; i++)
+for (int j = 0; j < nums .1ength; j++)
+if (nums[i] + nums[j] == target && i != j) {
+sum[0]=i>j?j:i
+sum[1]=i>j?i:j;
+}
+return sum;
+｝
+}
